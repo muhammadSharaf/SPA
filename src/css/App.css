@@ -1,0 +1,9 @@
+@import "SideBar.css";
+@import "ConversationList.css";
+@import "chat/ChatScreen.css";
+@import "chat/MassageType.css";
+
+.App {
+    display: flex;
+    flex-direction: row;
+}

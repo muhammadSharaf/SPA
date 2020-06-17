@@ -1,0 +1,96 @@
+.massage-type-title {
+    color: #7b888c;
+    margin: 0 0 10px;
+}
+
+.massage-type-note-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+}
+
+.massage-type-note-list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.massage-type-note-list li {
+    line-height: 16px;
+    margin: 0;
+}
+
+.massage-type-note-text {
+    font-size: 14px;
+    color: #7b888c;
+}
+
+.massage-type2-info {
+    font-size: 10px;
+    color: #7b888c;
+}
+
+.massage-type2-state-container{
+    display: flex;
+    align-items: center;
+}
+
+.massage-type2-state {
+    color: #cf5b4b;
+    font-size: 14px;
+}
+
+.massage-type-icon {
+    height: 16px;
+    margin-right: 8px;
+    margin-top: 4px;
+    object-fit: cover;
+}
+
+.massage-type-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.massage-type-footer-user {
+    display: flex;
+    flex-direction: row;
+}
+
+.massage-type-footer-user-txt {
+    font-size: 12px;
+    color: #7b888c;
+    font-style: italic;
+}
+
+.massage-type-btn {
+    background-color: white;
+    border-radius: 8px;
+    display: inline-block;
+    padding: 6px 20px;
+}
+
+.massage-type-btn:hover {
+    cursor: pointer;
+    background-color: #ccc;
+}
+
+.massage-type-btn-icon {
+    height: 14px;
+    margin-right: 8px;
+    margin-top: 4px;
+    object-fit: cover;
+}
+
+.massage-type2-icon {
+    height: 14px;
+    margin-right: 16px;
+    margin-top: 4px;
+    object-fit: cover;
+}
+
+.massage-type-btn-txt {
+    color: #e98383;
+    font-size: 18px;
+}

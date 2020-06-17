@@ -1,0 +1,183 @@
+.chat-screen {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 100;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.chat-screen-header {
+    display: flex;
+    flex-direction: row;
+    padding: 12px 24px;
+    align-items: center;
+    height: 40px;
+    background-color: #5cb1b6;
+}
+
+.chat-screen-header-title {
+    color: white;
+    font-size: 18px;
+}
+
+.chat-screen-header-utils {
+    display: inline;
+    list-style-type: none;
+    padding: 2px;
+    margin-left: auto;
+}
+
+.chat-screen-header-utils li {
+    float: left;
+    margin-left: 8px;
+    padding: 20px;
+}
+
+.chat-screen-header-utils li:hover {
+    cursor: pointer;
+    background-color: #7ac5cb;
+}
+
+.chat-screen-header-utils-icon {
+    color: white;
+    margin-left: auto;
+    height: 24px;
+    object-fit: cover;
+}
+
+/*chat*/
+
+.chat {
+    background-color: white;
+    overflow-y: scroll;
+    padding-bottom: 10px;
+}
+
+.chat-massage-from {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.chat-massage-to {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.chat-massage-container {
+    width: 60%;
+}
+
+.chat-massage-bubble-from {
+    padding: 12px 20px;
+    background-color: #eeeef8;
+    border-radius: 16px;
+    margin-right: 50px;
+}
+
+.chat-massage-bubble-to {
+    padding: 12px 20px;
+    background-color: #eeeef8;
+    border-radius: 16px;
+    margin-left: 50px;
+}
+
+.massage-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.massage-info-name {
+    color: #888889;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.massage-info-sub {
+    display: flex;
+    align-items: center;
+}
+
+.massage-info-date {
+    color:#bebebe;
+    font-size: 12px;
+}
+
+.massage-info-img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 10px;
+}
+
+/*Massage Sender*/
+
+.massage-sender {
+    display: flex;
+    align-items: center;
+    padding: 10px 4px;
+}
+
+.massage-sender-add {
+    color: white;
+    height: 14px;
+    object-fit: cover;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.massage-sender-add:hover {
+    cursor: pointer;
+    background-color: #ddd;
+}
+
+.massage-sender-send {
+    color: white;
+    height: 20px;
+    object-fit: cover;
+    padding: 10px 10px 10px 0;
+}
+
+.massage-sender-send:hover {
+    cursor: pointer;
+}
+
+.massage-sender-input {
+    resize: none;
+    outline: none;
+    border-radius: 12px;
+    padding: 3px 16px;
+    border: 1px solid #ddd;
+    width: max-content;
+    flex-grow: 100;
+    margin: 0 8px;
+    height: 80%;
+}
+
+.chat::-webkit-scrollbar {
+    width: 8px;
+}
+
+/* Track */
+.chat::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+/* Handle */
+.chat::-webkit-scrollbar-thumb {
+    background: #c6d3d5;
+    border-radius: 8px;
+}
+
+/* Handle on hover */
+.chat::-webkit-scrollbar-thumb:hover {
+    background: #a7b3b5;
+}
